@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://todomvc.com/examples/react/node_modules/todomvc-app-css/index.css">
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js" defer></script>
+    <title>Todo</title>
+</head>
+
+<body>
+    <section class="todoapp">
+        <div>
+            <header class="header">
+                <h1>todos</h1>
+                <form id="todo-form"><input required class="new-todo" placeholder="What needs to be do done?" value=""></form>
+            </header>
+            <section class="main">
+                <input type="checkbox" name="" id="toggle-all" class="toggle-all">
+                <label for="toggle-add"></label>
+                <ul class="todo-list">
+                    <!-- <li>
+                        <div class="view">
+                            <input type="checkbox" class="toggle">
+                            <label> bunun arayüzü çok güzelmiş</label>
+                            <button class="destroy"></button>
+                        </div>
+                        <input class="edit" value="bunun arayüzü çok güzelmiş">
+                    </li>
+                    <li class="editing">
+                        <div class="view">
+                            <input type="checkbox" class="toggle">
+                            <label> bunun arayüzü çok güzelmiş</label>
+                            <button class="destroy"></button>
+                        </div>
+                        <input class="edit" value="bunun arayüzü çok güzelmiş">
+                    </li> -->
+                </ul>
+            </section>
+            <footer class="footer">
+                <span class="todo-count"><strong>x</strong><span> </span><span>item </span><span>left</span></span>
+                <ul class="filters">
+                    <li>
+                        <label><input type="radio" name="filter" value="all" id="" checked>All</label>
+                        <!-- <a href="#/" class="selected">All</a> -->
+                    </li>
+                    <li>
+                        <label><input type="radio" name="filter" value="active" id="">Active</label>
+                        <!-- <a href="#/active" class="selected">Active</a> -->
+                    </li>
+                    <li>
+                        <label><input type="radio" name="filter" value="completed" id="">Completed</label>
+                        <!-- <a href="#/completed" class="selected">Completed</a> -->
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>
